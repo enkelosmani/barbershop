@@ -1,0 +1,400 @@
+* {
+    font-family: "Noto Sans",Helvetica,Arial,Lucida,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+        height: 15%;
+        width: 60%;
+        margin: 0 auto;
+}
+
+/*============ Header ===============*/
+
+.header{
+    position: relative;
+    padding: 20px;
+    padding-left: 20px;
+    font-family: "Noto Sans",Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    background-color: #181818;
+    background-repeat: no-repeat;
+            
+}
+header {
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.2);
+    
+    
+}
+.header-content {
+    position: absolute;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#logo  {
+    margin-top: -40px;
+    height: 160;
+    width: 194;
+}
+.nav-items {
+    position: relative;
+    display: flex;
+    list-style: none;
+    height: 10%;
+}
+
+.navbar li a {
+    position: relative;
+    font-family: "Noto Sans",Helvetica,Arial,Lucida,sans-serif;
+    margin: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar li a:hover {
+    color: #818589;
+}
+
+.navbar .active {
+    color: #818589;
+}
+#dalja{
+    display: inline;
+    align-items: left;
+}
+
+/*============ Header ===============*/
+/*============ Section1===============*/
+
+.section1 .img {
+    padding: 50px 0;
+    height: calc(50vh - 70px);
+    background-image:url(images/tweed-home-image.jpg);
+    background-color: #fff;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*============ Section1===============*/
+
+/*============ Section2===============*/
+.container1 {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+#img2 {
+    max-width: 30%;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.section2 {
+    background-color: white;    
+}
+.text1  {
+    text-align: left;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 300px;
+    margin-left: 100px;
+}
+#h1 {
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+#h3 {
+    font-size: 36px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+}
+#p2 {
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.7
+    em;
+    font-weight: 500;
+    
+}
+hr {
+    width: 100px;
+    position: relative; 
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+/*============ Section2===============*/
+/*============ Footer===============*/
+.footer1 {
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-image: url(images/footer-bg.jpg);
+    padding-top: 27px;
+    padding-right: 0px;
+    padding-bottom: 41px;
+    padding-left: 0px;
+
+}
+.ff {
+    display: flex;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 14px;
+    padding-left: 300px;
+    color: white;
+}
+p {
+    text-align: left;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #fff;
+}
+
+#img3 {
+    align-items: left;
+    margin-right: 15px;
+}
+.ff2 {
+    color: #fff;
+    padding-left: 80px;
+}
+/*============== Footer =============*/
+/*============== Klientet - Sherbimet=============*/
+
+
+.list-entity,
+.section-shto-modifiko {
+    margin-top: 50px!important;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    background-color:#181818 ;
+    padding-top: 600px !important;
+    width:1519.5px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #ab2830;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ab2830;
+}
+#add_entity{
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-left: auto;
+    border: none;
+    padding: 10px;
+    background: #ab2830;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+#add_entity:hover {
+    background: white;
+    color: #ab2830;
+}
+.forma {
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    z-index: 10;
+}
+.forma h1 {
+    font-size: 21px;
+    color: #ab2830;
+    margin-bottom: 20px;
+}
+.forma input,
+.forma textarea  {
+    width: 500px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+    border-color: #ab2830;
+}
+
+.forma input,
+.forma textarea {
+    caret-color: black;
+}
+
+select {
+    width: 513px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.forma label {
+    color: #ab2830;
+    font-size: 20px;
+}
+
+.forma .inputAndLabels {
+    margin-bottom: 20px;
+}
+
+.shtoModifiko {
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background: #ab2830;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+/*============== Klientet - Sherbimet=============*/
+/*============== Login =============*/
+
+
+#loginPage {
+    background: rgba(171, 40, 48,1);
+    background: linear-gradient(
+            140deg,
+            rgba(255, 255, 255, 1) 20%,
+            rgba(24, 24, 24, 1) 80%
+    );
+}
+
+#loginPage .header {
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-left: 15px;
+   
+}
+
+#loginPage .header .logo {
+    margin-left: 150px;
+}
+
+.formaLogin {
+    /* background: red;  */
+    width: 530px;
+    margin: 100px auto;
+    box-shadow: 4px 7px 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.formaLogin h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Poppins";
+    color: #ab2830;
+    text-shadow: 1px 2px 0px #dbdada;
+}
+
+.formaLogin input {
+    width: 500px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.loginFormFooter {
+    text-align: center;
+    font-size: 18px;
+}
+
+.loginFormFooter span {
+    display: inline-block;
+    margin-top: 15px;
+    transition: all 0.4s ease;
+}
+
+.loginFormFooter span:hover {
+    color: #ab2830;
+}
+.loginFormFooter span a {
+    text-decoration: none;
+}
+
+.loginFormFooter #login {
+    text-decoration: none;
+    width: 500px;
+    background: #ab2830;
+    color: #181818;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Popins", "sans-serif";
+    transition: all 0.4s ease;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.loginFormFooter #login:hover {
+    background: transparent;
+    color: #ab2830 !important;
+    letter-spacing: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/*============== Login =============*/
+#mesazhi1,#mesazhi2,#mesazhi3,#mesazhi4 {
+    font-size: 20px;
+    font-weight: 800px;
+}
