@@ -1,2 +1,2 @@
 # barbershops
-Barbershop Project with HTML,CSS,PHP and MYSQL
+Barbershop Project with HTML,CSS,PHP,jQuery and MYSQL
